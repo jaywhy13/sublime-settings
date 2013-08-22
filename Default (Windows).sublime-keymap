@@ -3,5 +3,5 @@
     { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
     { "keys": ["ctrl+x", "ctrl+p"], "command": "select_all" },
     { "keys": ["ctrl+x", "ctrl+o"], "command": "prompt_open_file" },
-    { "keys": ["ctrl+alt+s"], "command": "subprocess_in_cwd", "args": {"cmd": ["cmd.exe"]}},
+    { "keys": ["ctrl+alt+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}},
 ]
