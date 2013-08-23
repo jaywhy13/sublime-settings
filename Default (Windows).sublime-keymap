@@ -3,5 +3,9 @@
     { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
     { "keys": ["ctrl+x", "ctrl+p"], "command": "select_all" },
     { "keys": ["ctrl+x", "ctrl+o"], "command": "prompt_open_file" },
-    { "keys": ["ctrl+alt+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}},
+    { "keys": ["ctrl+alt+c"], "command": "subprocess_in_cwd", "args": {"cmd": ["cmd.exe"]}},
+	{ "keys": ["ctrl+alt+f"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+	{ "keys": ["ctrl+alt+d"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+alt+s"], "command": "find_under_expand_skip" },
+
 ]
