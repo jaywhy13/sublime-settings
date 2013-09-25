@@ -1,6 +1,15 @@
 {
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_size": 9,
+	"font_face" : "Source Code Pro",
+	"highlight_line": true,
+	"line_padding_bottom": 1,
+	"translate_tabs_to_spaces": true,
+	"tab_size" : 4,
+	"word_wrap": "true",
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"rulers" : [80]
 }
