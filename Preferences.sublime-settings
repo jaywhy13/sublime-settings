@@ -1,20 +1,22 @@
 {
 	"bold_folder_labels" : true,
+	"color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
 	"caret_style" : "phase",
-	"fade_fold_buttons" : false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_size": 9,
+	"font_size": 14,
 	"font_face" : "Source Code Pro",
-	"highlight_line": true,
-	"line_padding_top": 1,
-	"translate_tabs_to_spaces": true,
-	"tab_size" : 4,
-	"word_wrap": "true",
+	"fade_fold_buttons" : false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"rulers" : [80]
+	"rulers":
+	[
+		80,
+		120
+	],
+	"theme": "Material Spaceblack.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"highlight_line": true,
+	"line_padding_top": 1,
+	"word_wrap": "true",
 }
-
-
