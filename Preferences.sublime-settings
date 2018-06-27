@@ -1,10 +1,21 @@
 {
-	"bold_folder_labels" : true,
-	"color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
-	"caret_style" : "phase",
-	"font_size": 14,
-	"font_face" : "Source Code Pro",
-	"fade_fold_buttons" : false,
+	"bold_folder_labels": true,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"__pycache__"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 17,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
