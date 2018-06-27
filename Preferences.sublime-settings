@@ -18,6 +18,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"All Autocomplete",
+		"Anaconda",
+		"Kulture",
+		"OmniSharp",
 		"Vintage"
 	],
 	"rulers":
