@@ -29,8 +29,7 @@
 	"material_theme_tabs_autowidth": true,
 	"rulers":
 	[
-		80,
-		120
+		80
 	],
 	"theme": "Material Spaceblack.sublime-theme",
 	"translate_tabs_to_spaces": true,
