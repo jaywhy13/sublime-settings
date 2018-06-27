@@ -1,11 +1,5 @@
 [
-    {"keys": ["ctrl+y"], "command": "sbp_yank"},
-    {"keys": ["ctrl+e"], "command": "move_to", "args": {"to": "hardeol", "extend": false }},
-    {"keys": ["ctrl+w"], "command": "sbp_kill_region"},
-    {"keys": ["ctrl+/"], "command": "undo"},
-
-    { "keys": ["ctrl+enter"], "args": {"action": "expand_abbreviation"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.expand_abbreviation"}]}, 
-    { "keys": ["ctrl+option+n"], "command": "advanced_new_file"},
+    { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
     { "keys": ["ctrl+x", "ctrl+p"], "command": "select_all" },
     { "keys": ["ctrl+x", "ctrl+o"], "command": "prompt_open_file" },
     { "keys": ["ctrl+alt+f"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
@@ -13,4 +7,57 @@
     { "keys": ["ctrl+alt+s"], "command": "find_under_expand_skip" },
     { "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
     { "keys": ["ctrl+shift+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["ctrl+/"], "command": "undo" },	
+    { "keys": ["super+]"], "command": "indent" },
+    { "keys": ["super+["], "command": "unindent" },
+    { "keys": ["ctrl+]"], "command": "indent" },
+    { "keys": ["ctrl+["], "command": "unindent" },
+    { "keys": ["ctrl+alt+shift", "["], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    { "keys": ["ctrl+="], "command": "power_cursor_add" },
+    { "keys": ["ctrl++"], "command": "power_cursor_add" },
+    { "keys": ["ctrl+-"], "command": "power_cursor_remove",
+      "context": [ { "key": "in_cursor_transition" } ]
+    },
+    { "keys": ["ctrl+alt+a"], "command": "power_cursor_activate",
+      "context": [ { "key": "in_cursor_transition" } ]
+    },
+    { "keys": ["ctrl+g"], "command": "power_cursor_exit",
+      "context": [ { "key": "in_cursor_transition" } ]
+    },
+    { "keys": ["ctrl+shift+alt+["], "command": "toggle_side_bar" },
+    {
+        "keys": [
+            "ctrl+enter"
+        ], 
+        "args": {
+            "action": "expand_abbreviation"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.expand_abbreviation"
+            }
+        ]
+    }, 
+    {"keys": ["ctrl+e"], "command": "move_to", "args": {"to": "hardeol", "extend": false }},
+    {"keys": ["ctrl+w"], "command": "sbp_kill_region"},
+    {"keys": ["ctrl+d"], "command": "right_delete"},
+    {"keys": ["ctrl+k"], "command": "sbp_move_then_delete", "args": {"move_cmd": "sbp_move_for_kill_line"}},
+
+    { "keys": ["ctrl+alt+]"], "command": "fold" },
+    { "keys": ["ctrl+alt+["], "command": "unfold" },
+    { "keys": ["ctrl+alt+1"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["ctrl+alt+2"], "command": "fold_by_level", "args": {"level": 2} },
+    { "keys": ["ctrl+alt+3"], "command": "fold_by_level", "args": {"level": 3} },
+    { "keys": ["ctrl+alt+4"], "command": "fold_by_level", "args": {"level": 4} },
+    { "keys": ["ctrl+alt+5"], "command": "fold_by_level", "args": {"level": 5} },
+    { "keys": ["ctrl+alt+6"], "command": "fold_by_level", "args": {"level": 6} },
+    { "keys": ["ctrl+alt+7"], "command": "fold_by_level", "args": {"level": 7} },
+    { "keys": ["ctrl+alt+8"], "command": "fold_by_level", "args": {"level": 8} },
+    { "keys": ["ctrl+alt+9"], "command": "fold_by_level", "args": {"level": 9} },
+    { "keys": ["ctrl+alt+0"], "command": "unfold_all" },
+    { "keys": ["super+k", "super+j"], "command": "unfold_all" },
+    { "keys": ["ctrl+shift+alt+d"], "command": "dash_doc"},
 ]
