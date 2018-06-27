@@ -31,9 +31,12 @@
 	[
 		80
 	],
-	"theme": "Material Spaceblack.sublime-theme",
+	"sbp_active_mark_mode": true,
+	"sbp_use_internal_complete_all_buffers": true,
+	"status_bar_brighter": true,
+	"tab_size": 4,
+	"tabs_small": true,
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"highlight_line": true,
-	"line_padding_top": 1,
-	"word_wrap": "true",
+	"word_wrap": "true"
 }
