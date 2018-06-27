@@ -9,6 +9,9 @@
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"Anaconda",
+		"Bootstrap 3 Snippets",
+		"Bootstrap 4 Snippets",
+		"DashDoc",
 		"Djaneiro",
 		"DocBlockr",
 		"DocBlockr_Python",
@@ -18,10 +21,15 @@
 		"Materialize",
 		"Package Control",
 		"requirementstxt",
+		"PowerCursors",
+		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-flake8",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
 		"Theme - Afterglow"
+		"Theme - Alpenglow",
 	]
 }
