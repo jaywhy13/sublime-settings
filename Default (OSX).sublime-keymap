@@ -1,4 +1,6 @@
 [
+    {"keys": ["alt+shift+."], "command": "sbp_move_to", "args": {"to": "eof"}, "context": [ {"key": "sbp_use_alt_bindings"}]},
+    {"keys": ["alt+shift+,"], "command": "sbp_move_to", "args": {"to": "bof"}, "context": [ {"key": "sbp_use_alt_bindings"}]},
     { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
     { "keys": ["ctrl+x", "ctrl+p"], "command": "select_all" },
     { "keys": ["ctrl+x", "ctrl+o"], "command": "prompt_open_file" },
