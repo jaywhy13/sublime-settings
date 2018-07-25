@@ -62,4 +62,6 @@
     { "keys": ["ctrl+alt+0"], "command": "unfold_all" },
     { "keys": ["super+k", "super+j"], "command": "unfold_all" },
     { "keys": ["ctrl+shift+alt+d"], "command": "dash_doc"},
+    { "keys": ["ctrl+shift+["], "command": "fold" },
+    { "keys": ["ctrl+shift+]"], "command": "unfold" },
 ]
