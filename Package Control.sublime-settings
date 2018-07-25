@@ -9,6 +9,7 @@
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"Anaconda",
+		"Babel",
 		"Bootstrap 3 Snippets",
 		"Bootstrap 4 Snippets",
 		"DashDoc",
@@ -18,18 +19,20 @@
 		"Emacs Pro Essentials",
 		"Emmet",
 		"GitGutter",
+		"JsPrettier",
 		"Materialize",
 		"Package Control",
-		"requirementstxt",
 		"PowerCursors",
+		"requirementstxt",
 		"Sass",
 		"SublimeLinter",
-		"SublimeLinter-jshint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
 		"Theme - Afterglow",
-		"Theme - Alpenglow"
+		"Theme - Alpenglow",
+		"TypeScript"
 	]
 }
