@@ -62,6 +62,10 @@
     { "keys": ["ctrl+alt+0"], "command": "unfold_all" },
     { "keys": ["super+k", "super+j"], "command": "unfold_all" },
     { "keys": ["ctrl+shift+alt+d"], "command": "dash_doc"},
+
+    // Go to definition
+    { "keys": ["ctrl+alt+l"], "command": "goto_definition" },
+
     // Anaconda customizations
     {
         "command": "anaconda_goto", "keys": ["ctrl+alt+l"], "context": [
@@ -69,10 +73,12 @@
         ]
     },    
     {
-        "command": "anaconda_doc", "keys": ["ctrl+alt+?"], "context": [
+        "command": "anaconda_doc", "keys": ["ctrl+command+?"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]
     },
     { "keys": ["ctrl+shift+["], "command": "fold" },
     { "keys": ["ctrl+shift+]"], "command": "unfold" },
+
+
 ]
