@@ -19,6 +19,7 @@
 		"Emacs Pro Essentials",
 		"Emmet",
 		"GitGutter",
+		"JsPrettier",
 		"Materialize",
 		"Package Control",
 		"PowerCursors",
@@ -32,6 +33,7 @@
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
 		"Theme - Afterglow",
-		"Theme - Alpenglow"
+		"Theme - Alpenglow",
+		"TypeScript"
 	]
 }
