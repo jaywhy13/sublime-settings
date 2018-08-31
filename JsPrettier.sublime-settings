@@ -1,0 +1,10 @@
+{
+    "auto_format_on_save": true,
+    "prettier_options": {
+        "printWidth": 100,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "tabWidth": 2,
+    },
+    "prettier_cli_path": "/Users/jmwright/.nvm/versions/node/v8.9.4/bin/prettier",
+}
