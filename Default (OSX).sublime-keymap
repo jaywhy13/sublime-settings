@@ -92,5 +92,12 @@
         ]
     },
 
+    // bookmarks
+    // 
+    { "keys": ["ctrl+,"], "command": "next_bookmark" },
+    { "keys": ["ctrl+."], "command": "prev_bookmark" },
+    { "keys": ["ctrl+shift+super+/"], "command": "toggle_bookmark" },
+    // reveal in sidebar
+    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
 
 ]
