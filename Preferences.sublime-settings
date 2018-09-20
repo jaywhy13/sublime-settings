@@ -2,8 +2,8 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Materialize/schemes/Material Monokai Soda.tmTheme",
-	"fade_fold_buttons": false,
+	// "color_scheme": "Packages/Materialize/schemes/Material Monokai Soda.tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
 	"folder_exclude_patterns":
 	[
 		"node_modules",
@@ -14,11 +14,15 @@
 		"__pycache__"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 17,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"All Autocomplete",
+		"C#",
+		"DocBlockr_Python",
 		"Kulture",
+		"Objective-C",
 		"OmniSharp",
 		"Vintage"
 	],
@@ -35,7 +39,8 @@
 	"status_bar_brighter": true,
 	"tab_size": 4,
 	"tabs_small": true,
-	"theme": "Material Monokai Soda.sublime-theme",
+	// "theme": "Material Monokai Soda.sublime-theme",
+	"theme": "Material Spaceblack.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": "true"
 }
