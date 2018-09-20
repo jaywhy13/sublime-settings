@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+${1:const }sut = shallow(<${2} ${3:{...props}} />);$0]]></content>
+    <tabTrigger>sut</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

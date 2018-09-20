@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[expect($1).toHaveLength($2);$0]]>
+    </content>
+    <tabTrigger><![CDATA[thl]]></tabTrigger>
+    <scope>source.js</scope>
+    <description>toHaveLength</description>
+</snippet>
