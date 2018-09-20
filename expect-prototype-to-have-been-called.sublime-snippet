@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+expect(${1:Object}.prototype.${2:method}).toHaveBeenCalled();
+]]></content>
+    <tabTrigger>epthbc</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
