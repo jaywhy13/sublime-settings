@@ -4,4 +4,5 @@
     "merge_signatures_and_doc": true,
     "suppress_word_completions": true,
     "suppress_explicit_completions": true,
+    "swallow_startup_errors": true,
 }
