@@ -9,6 +9,7 @@
 		"AdvancedNewFile",
 		"Anaconda",
 		"Babel",
+		"Babel Snippets",
 		"Bootstrap 3 Snippets",
 		"Bootstrap 4 Snippets",
 		"cdnjs",
@@ -31,9 +32,9 @@
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
-		"SublimeLinter-jshint",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
+		"SublimeLinter-stylelint",
 		"Theme - Afterglow",
 		"Theme - Alpenglow",
 		"TypeScript"
