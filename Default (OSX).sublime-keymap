@@ -73,7 +73,7 @@
         ]
     },    
     {
-        "command": "anaconda_doc", "keys": ["ctrl+command+?"], "context": [
+        "command": "anaconda_doc", "keys": ["ctrl+command+/"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]
     },
