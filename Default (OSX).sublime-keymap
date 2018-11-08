@@ -98,6 +98,30 @@
     { "keys": ["ctrl+."], "command": "prev_bookmark" },
     { "keys": ["ctrl+shift+super+/"], "command": "toggle_bookmark" },
     // reveal in sidebar
-    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
+    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"},
+    // move tab
+    {
+        "keys": ["super+alt+shift+b"],
+        "command": "move_tab",
+        "args": { "position": "-1" }
+    },
+    {
+        "keys": ["super+alt+shift+f"],
+        "command": "move_tab",
+        "args": { "position": "+1" }
+    },
+    {
+        "keys": ["super+alt+shift+p"],
+        "command": "move_tab",
+        "args": { "position": "0" }
+    },
+    {
+        "keys": ["super+alt+shift+n"],
+        "command": "move_tab",
+        "args": { "position": "999" }
+    },
+
+    {"keys": ["ctrl+alt+t"], "command": "terminal_view_open", "args": {"cmd": "/bin/zsh", "title": "Terminal"}},
+
 
 ]
