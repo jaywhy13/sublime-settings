@@ -3,7 +3,7 @@
     "paths": {
         "osx": [
             "~/.pyenv/shims",
-            "/Users/jmwright/.nvm/versions/node/v8.9.4/bin/",
+            "/Users/jmwright/.nvm/versions/node/v8.12.0/bin/",
         ]
     },
     "linters": {
