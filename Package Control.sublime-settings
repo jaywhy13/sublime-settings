@@ -24,20 +24,27 @@
 		"Jasmine JS",
 		"JsPrettier",
 		"Materialize",
+		"MoveTab",
 		"Package Control",
 		"PlainTasks",
 		"PowerCursors",
 		"Project Specific Syntax Settings",
 		"requirementstxt",
+		"RuboCop",
 		"Sass",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-stylelint",
+		"SublimeLinter-tslint",
+		"TerminalView",
 		"Theme - Afterglow",
 		"Theme - Alpenglow",
-		"TypeScript"
+		"TodoReview",
+		"TypeScript",
+		"Unittest (python)"
 	]
 }
