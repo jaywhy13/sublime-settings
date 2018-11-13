@@ -123,5 +123,10 @@
 
     {"keys": ["ctrl+alt+t"], "command": "terminal_view_open", "args": {"cmd": "/bin/zsh", "title": "Terminal"}},
 
+    // Bookmarks
+    { "keys": ["super+3"], "command": "next_bookmark" },
+    { "keys": ["super+2"], "command": "prev_bookmark" },
+    { "keys": ["super+1"], "command": "toggle_bookmark" },
+    { "keys": ["super+0"], "command": "clear_bookmarks" },
 
 ]
